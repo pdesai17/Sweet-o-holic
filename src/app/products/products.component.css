@@ -1,0 +1,28 @@
+h1 {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+}
+.product-sec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div {
+  text-align: center;
+}
+ul {
+  list-style: none;
+  margin: auto;
+}
+li {
+  margin: 15px;
+  display: inline;
+}
+li > a {
+  cursor: pointer;
+}
+li > a:hover {
+  font-weight: bold;
+}

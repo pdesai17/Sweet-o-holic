@@ -1,0 +1,7 @@
+<div class="product-card" routerLink="/prod-detail">
+  <img src="{{ product.image }}" alt="" />
+  <h4>{{ product.name }}</h4>
+  <p>{{ product.price | currency : "INR" }}</p>
+  <button (click)="addToCart()">Add to cart</button>
+  <!-- <button *ngIf="isInCart" (click)="removeFromCart()">Remove from cart</button> -->
+</div>

@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 10px;
+  background-color: #f35a63;
+}
+
+#pImage {
+  display: block;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info h3 {
+}
+.info h4 {
+  margin-left: 400px;
+}

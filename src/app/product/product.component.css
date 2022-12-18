@@ -1,0 +1,36 @@
+.product-card {
+  background-color: #fff1f1;
+  border-radius: 15px;
+  margin: 25px;
+  padding: 25px 62px;
+  width: 350px;
+  cursor: pointer;
+}
+.product-card:hover {
+  box-shadow: 0.2px 0px 15px #e89e9e;
+}
+p,
+h4 {
+  text-align: center;
+}
+img {
+  display: block;
+  width: 227px;
+  height: 194px;
+  margin: auto;
+}
+button {
+  display: block;
+  width: 230px;
+  height: 41px;
+  margin: auto;
+  background-color: #f35a63;
+  border: transparent;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+button:hover {
+  background-color: #f35a64bb;
+}

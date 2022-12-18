@@ -1,0 +1,13 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 25px;
+}
+ngb-carousel {
+  margin-top: 25px;
+}
+img {
+  display: block;
+  width: 80%;
+  margin: auto;
+}

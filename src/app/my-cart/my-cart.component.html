@@ -1,0 +1,15 @@
+<div class="logo">
+  <a routerLink="/"><img src="../../assets/logo.png" alt="" /></a>
+  <h3>Shopping cart</h3>
+</div>
+<div *ngIf="getCart().length == 0" class="container">
+  <img src="../../assets/empty-cart.png" alt="" />
+  <h4>Your cart is empty!!!</h4>
+</div>
+<div *ngIf="getCart().length > 0" class="container">
+  <ng-container *ngFor="let prod of getCart()">
+    <app-cart-product [cartProduct]="prod"></app-cart-product>
+  </ng-container>
+  <h1>Total Cost :{{ getTotal() }}</h1>
+  <a routerLink="/order-placed"><button>Place Order</button></a>
+</div>

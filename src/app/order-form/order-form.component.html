@@ -1,0 +1,22 @@
+<div>
+  <h1>Place Your Order!!</h1>
+  <form [formGroup]="orderForm" (ngSubmit)="onOrder()">
+    <p>Name:</p>
+    <input type="text" formControlName="name" />
+    <p>Address:</p>
+    <input type="text" formControlName="address" />
+    <p>Phone:</p>
+    <input type="text" formControlName="phone" />
+    <p>Delivering date:</p>
+    <input type="text" formControlName="date" />
+    <p>Delivering time:</p>
+    <input type="text" formControlName="time" />
+    <p>Weight:</p>
+    <select name="kg" id="" formControlName="kg">
+      <option value="500">500 gm</option>
+      <option value="1">1 Kg</option>
+      <option value="1.5">1.5 Kg</option>
+    </select>
+    <button>Book Order</button>
+  </form>
+</div>

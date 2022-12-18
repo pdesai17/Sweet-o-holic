@@ -1,0 +1,43 @@
+.top-bar {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  width: 128px;
+  height: 100px;
+}
+
+.buttons {
+  /* border: 2px solid blue; */
+  display: flex;
+  align-items: center;
+}
+.buttons .login {
+  height: 45px;
+  width: 135px;
+  margin: 8px;
+  border: 2px solid #af0001;
+  border-radius: 5px;
+  background: transparent;
+  font-size: 20px;
+  color: #af0001;
+  font-family: "Raleway", sans-serif;
+}
+.buttons .sign-up a {
+  color: white;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+.buttons .sign-up {
+  height: 45px;
+  width: 135px;
+  margin: 8px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-color: #af0001;
+  color: white;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}

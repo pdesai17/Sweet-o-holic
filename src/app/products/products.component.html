@@ -1,0 +1,15 @@
+<h1>Our Products</h1>
+<div>
+  <ul>
+    <li *ngFor="let category of categories">
+      <a (click)="filter(category)">{{ category | titlecase }}</a>
+    </li>
+  </ul>
+</div>
+
+<div class="product-sec">
+  <ng-container *ngFor="let singleProduct of catProd">
+    <app-product [product]="singleProduct"></app-product>
+  </ng-container>
+</div>
+<app-footer></app-footer>

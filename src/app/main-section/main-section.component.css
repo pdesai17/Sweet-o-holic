@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  align-items: center;
+}
+.cup1 {
+  width: 150px;
+  height: 150px;
+}
+.cup2 {
+  transform: rotate(70deg);
+  width: 80px;
+  height: 80px;
+}
+.title {
+  margin: 0px -5px 0px 45px;
+  display: flex;
+  flex-direction: column;
+}
+.title h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+  font-size: 40px;
+  color: #af0001;
+}
+.title h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-top: -10px;
+}
+.cakeImg {
+  width: 560px;
+  height: 580px;
+  margin-left: 155px;
+}
