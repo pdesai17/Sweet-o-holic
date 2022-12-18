@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: '', component: TopBarComponent },
   { path: 'cart', component: MyCartComponent },
   { path: 'order-placed', component: OrderPlacedComponent },
-  { path: 'prod-detail', component: ProductDetailsComponent },
+  { path: 'products/:productId', component: ProductDetailsComponent },
   { path: '**', component: PageNotFoundComponent },
 ];
 @NgModule({
